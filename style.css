@@ -1,0 +1,150 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 20px 0 20px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 7px 1px;
+}
+
+.card>h3 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.card>p {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card>.link {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.link>a {
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.link>.detail:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 1px 1px 1px;
+}
+
+.link>.beli:hover {
+    background-color: rgb(255, 113, 113);
+    color: black;
+    box-shadow: 1px 1px 1px;
+}
+
+.detail {
+    display: inline-block;
+    background-color: green;
+}
+
+.beli {
+    display: inline-block;
+    background-color: red;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* singgle page */
+h2 {
+    color: red;
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.singgleCard {
+    border: 1px solid rgba(255, 25, 25, 0.5);
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.singgleCardImg {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.cardBody>p {
+    margin: 0;
+    padding-top: 10px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.cardBody>span {
+    margin: 0;
+    padding-top: 10px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.kembali {
+    display: inline-block;
+    background-color: blue;
+
+}
+
+.cardBody>.link {
+    padding-top: 10px;
+}
